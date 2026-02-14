@@ -78,9 +78,7 @@ npm run dev
 
 Dev UI: **http://localhost:5177** — proxy `/api` to backend 8003.
 
-## ✨ Features
-
-- **Parent-child chunking** — Small chunks (children) for retrieval; large sections (parents) for context
+## ✨ Features- **Parent-child chunking** — Small chunks (children) for retrieval; large sections (parents) for context
 - **Metadata linking** — Children store parent ID; retrieval returns expanded parent content
 - **Compare modes** — Toggle standard vs. parent-document retrieval and compare answers
 - **Full RAG** — Optional LLM answer from retrieved (expanded) context
